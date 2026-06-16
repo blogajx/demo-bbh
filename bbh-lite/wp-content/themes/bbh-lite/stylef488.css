@@ -1960,6 +1960,9 @@ body.search-open {
         padding-left: 1% !important;
         padding-right: 1% !important;
     }
+    .site-info {
+        flex-direction: column;
+    }
 }
 
 @media (max-width: 600px) {
