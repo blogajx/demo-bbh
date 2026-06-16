@@ -1,0 +1,42 @@
+/**
+Theme Name: BBH Lite Child
+Author: Jahid Shah
+Author URI: https://jahidshah.com/legal-licensing/
+Description: Performance-optimized child theme for BBH Lite.
+Version: 1.0.5
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: bbh-lite-child
+Template: bbh-lite
+*/
+
+
+.cusimagecls img {
+    width: 100%;
+}
+ul.latest-post-gird {
+    display: flex;
+    gap: 15px;
+}
+ul.latest-post-gird li img{
+    width: 100%;
+    max-height: 270px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+ul.latest-post-gird li a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 30px;
+    color: #000;
+}
+ul.latest-post-gird li a:hover {
+    color: #005177;
+}
+
+@media (max-width: 768px){
+    ul.latest-post-gird {
+        flex-direction: column;
+    }   
+}
