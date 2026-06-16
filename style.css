@@ -1825,6 +1825,19 @@ section.section-transparency ul, section.section-why-open-source ul {
     text-decoration: none;
 }
 
+a.project-btn {
+    padding: 10px;
+    box-shadow: 0 0 3px #f9f9f9;
+    border-radius: 8px;
+}
+
+a.project-btn:hover {
+    color: #0f0f0f;
+    background-color: #fff;
+    box-shadow: 0 0 3px #fff;
+    transition: 1s;
+}
+
 @media (max-width: 992px) {
     .demo-project-grid {
         grid-template-columns: repeat(2,1fr);
